@@ -1,5 +1,5 @@
 import sys
-import os
+import os.sistem
 import time
 import socket
 import random
