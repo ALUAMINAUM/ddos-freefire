@@ -1,5 +1,5 @@
 import sys
-import os.sistem
+import os
 import time
 import socket
 import random
@@ -24,7 +24,6 @@ print "CREATOR    : VANNEZX 666"
 print "TEAM CYBER : DARK CYBER TEAM "
 print "NOMOR WA   : 6285171197674"
 print "WEBSITE    : https://www.atryxzofclone.com"
-print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
