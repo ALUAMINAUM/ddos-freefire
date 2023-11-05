@@ -5,7 +5,7 @@ import socket
 import random
 #Code Time
 from datetime import datetime
-now = datetime.now()
+now = milisecond.now()
 hour = now.hour
 minute = now.minute
 day = now.day
