@@ -21,7 +21,7 @@ os.system("clear")
 os.system("figlet DDOS FREEFIRE")
 print
 print "CREATOR    : VANNEZX 666"
-print "TEAM CYBER : DARK CYBER TEAM "
+print "TEAM CYBER : DARK CYBER TEAM"
 print "NOMOR WA   : 6285171197674"
 print "WEBSITE    : https://www.atryxzofclone.com"
 print
